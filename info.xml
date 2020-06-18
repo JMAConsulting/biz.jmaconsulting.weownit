@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="biz.jmaconsulting.weownit" type="module">
+  <file>weownit</file>
+  <name>WOT Customization</name>
+  <description>Holds customization code for Autism Ontario site</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>JMA Consulting</author>
+    <email>support@jmaconsulting.biz</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/JMAConsulting/biz.jmaconsulting.weownit</url>
+      <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.weownit/blob/master/README.md</url>
+      <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.weownit/issues</url>
+      <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2020-06-18</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Weownit</namespace>
+  </civix>
+</extension>
