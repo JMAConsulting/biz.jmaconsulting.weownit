@@ -1,0 +1,87 @@
+.button-block {
+  background-color: #026288 !important;
+  color: #fff !important;
+  border: 2px solid #636359 !important;
+  border-radius: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 16px 28px;
+  line-height: 1;
+  transition: 0.12s;
+  outline: 0;
+  display: inline-block;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.other-section {
+  float: right;
+  position: relative;
+  margin-top: -60px;
+  margin-right: 22px;
+}
+
+#price_174 {
+  background-color: #026288 !important;
+  border: 2px solid #636359 !important;
+  border-radius: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  position: relative;
+  height: 40px !important;
+  margin-left: 15px !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#price_174:([type='radio']) {
+  color: #ffffff !important;
+}
+
+#price_174:([type='radio']) {
+  color: #ffffff !important;
+}
+
+.button-block:hover {
+  color: #ffffff !important;
+  border: 2px solid #026288 !important;
+  position: relative;
+  top: -2px;
+}
+
+#gift_type, #donation_type {
+  text-align: center !important;
+  padding-bottom: 35px;
+}
+
+#donation_type, #pricesetTotal {
+  padding-top: 35px;
+}
+
+
+input[type="radio"]:checked+label {
+  font-weight: bold !important;
+}
+
+input[type="radio"]:checked+label:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+}
+
+.is_recur-section, .is_for_organization-section {
+  display: none;
+}
+
+.soft_credit_type_id-section {
+  padding-bottom: 18px;
+}
+
+.amount_one_time-section > div.label > label:first-child, .amount_monthly-section > div.label > label:first-child {
+  display: none;
+}
+
+#s2id_custom_13 {
+  width: 234px !important;
+}

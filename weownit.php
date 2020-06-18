@@ -75,6 +75,15 @@ function weownit_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
   return _weownit_civix_civicrm_upgrade($op, $queue);
 }
 
+function weownit_civicrm_buildForm($formName, &$form) {
+  if ($formName == "CRM_Contribute_Form_Contribution_Main" && $form->_id == 2) {
+    CRM_Core_Resources::singleton()->addStyleFile('biz.jmaconsulting.weownit', 'templates/css/style.css');
+    CRM_Core_Region::instance('page-body')->add(array(
+      'template' => 'CRM/ContributionTheme.tpl',
+    ));
+  }
+}
+
 /**
  * Implements hook_civicrm_managed().
  *

@@ -1,0 +1,82 @@
+.button-block {
+    background-color: #40c057 !important;
+    border: 2px solid #37b24d !important;
+    width: 12%;
+    opacity: 0.5;
+    height: auto;
+    margin-right: 4%;
+    float: left;
+    color: #FFF;
+    font-size: 24px;
+    background-image: none;
+    padding: 8px;
+    margin-bottom: 15px;
+    letter-spacing: -0.03em;
+    line-height: 1.428571429;
+    display: block;
+    cursor: pointer;
+}
+
+.other-section {
+  float: right;
+  position: relative;
+  margin-top: -60px;
+  margin-right: 22px;
+}
+
+.other-section input[type="text"]:checked {
+    color: #fff;
+    border-color: #37b24d;
+    background-color: #40c057;
+    box-shadow: none;
+  }
+
+#price_5 {
+  border: 2px solid #37b24d !important;
+  border-radius: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  position: relative;
+  height: 40px !important;
+  margin-left: 15px !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#price_5:input {
+  background-color: #40c057 !important;
+}
+
+.highlight label {
+  color: white !important;
+}
+
+.button-block:hover {
+  color: #ffffff !important;
+  border: 2px solid #37b24d !important;
+  position: relative;
+  top: -2px;
+}
+
+#gift_type, #donation_type {
+  text-align: center !important;
+  padding-bottom: 35px;
+}
+
+#donation_type, #pricesetTotal {
+  padding-top: 35px;
+}
+
+
+input[type="radio"]:checked+label {
+  border-color: #37b24d;
+  background-color: #40c057;
+  color: white;
+  opacity: 1;
+}
+
+
+.amount_one_time-section > div.label > label:first-child, .amount_monthly-section > div.label > label:first-child {
+  display: none;
+}
